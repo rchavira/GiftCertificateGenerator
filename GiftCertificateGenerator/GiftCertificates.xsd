@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GiftCertificates" targetNamespace="http://tempuri.org/GiftCertificates.xsd" xmlns:mstns="http://tempuri.org/GiftCertificates.xsd" xmlns="http://tempuri.org/GiftCertificates.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GiftCertificates" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="GiftCertificates" msprop:Generator_UserDSName="GiftCertificates">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GiftCertificates" msprop:Generator_TableClassName="GiftCertificatesDataTable" msprop:Generator_TableVarName="tableGiftCertificates" msprop:Generator_RowChangedName="GiftCertificatesRowChanged" msprop:Generator_TablePropName="_GiftCertificates" msprop:Generator_RowDeletingName="GiftCertificatesRowDeleting" msprop:Generator_RowChangingName="GiftCertificatesRowChanging" msprop:Generator_RowEvHandlerName="GiftCertificatesRowChangeEventHandler" msprop:Generator_RowDeletedName="GiftCertificatesRowDeleted" msprop:Generator_RowClassName="GiftCertificatesRow" msprop:Generator_UserTableName="GiftCertificates" msprop:Generator_RowEvArgName="GiftCertificatesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GiftCertificateID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnGiftCertificateID" msprop:Generator_ColumnPropNameInRow="GiftCertificateID" msprop:Generator_ColumnPropNameInTable="GiftCertificateIDColumn" msprop:Generator_UserColumnName="GiftCertificateID" type="xs:long" />
+              <xs:element name="DateAdded" msprop:Generator_ColumnVarNameInTable="columnDateAdded" msprop:Generator_ColumnPropNameInRow="DateAdded" msprop:Generator_ColumnPropNameInTable="DateAddedColumn" msprop:Generator_UserColumnName="DateAdded" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GiftCertificateNumber" msprop:Generator_ColumnVarNameInTable="columnGiftCertificateNumber" msprop:Generator_ColumnPropNameInRow="GiftCertificateNumber" msprop:Generator_ColumnPropNameInTable="GiftCertificateNumberColumn" msprop:Generator_UserColumnName="GiftCertificateNumber" type="xs:string" />
+              <xs:element name="ToText" msprop:Generator_ColumnVarNameInTable="columnToText" msprop:Generator_ColumnPropNameInRow="ToText" msprop:Generator_ColumnPropNameInTable="ToTextColumn" msprop:Generator_UserColumnName="ToText" type="xs:string" minOccurs="0" />
+              <xs:element name="FromText" msprop:Generator_ColumnVarNameInTable="columnFromText" msprop:Generator_ColumnPropNameInRow="FromText" msprop:Generator_ColumnPropNameInTable="FromTextColumn" msprop:Generator_UserColumnName="FromText" type="xs:string" minOccurs="0" />
+              <xs:element name="Memo" msprop:Generator_ColumnVarNameInTable="columnMemo" msprop:Generator_ColumnPropNameInRow="Memo" msprop:Generator_ColumnPropNameInTable="MemoColumn" msprop:Generator_UserColumnName="Memo" type="xs:string" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_UserColumnName="Notes" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ServiceAmount" msprop:Generator_ColumnVarNameInTable="columnServiceAmount" msprop:Generator_ColumnPropNameInRow="ServiceAmount" msprop:Generator_ColumnPropNameInTable="ServiceAmountColumn" msprop:Generator_UserColumnName="ServiceAmount" type="xs:string" minOccurs="0" />
+              <xs:element name="HideFrom" msprop:Generator_ColumnVarNameInTable="columnHideFrom" msprop:Generator_ColumnPropNameInRow="HideFrom" msprop:Generator_ColumnPropNameInTable="HideFromColumn" msprop:Generator_UserColumnName="HideFrom" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ExpirationDate" msprop:Generator_ColumnVarNameInTable="columnExpirationDate" msprop:Generator_ColumnPropNameInRow="ExpirationDate" msprop:Generator_ColumnPropNameInTable="ExpirationDateColumn" msprop:Generator_UserColumnName="ExpirationDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ServiceList" msprop:Generator_TableClassName="ServiceListDataTable" msprop:Generator_TableVarName="tableServiceList" msprop:Generator_TablePropName="ServiceList" msprop:Generator_RowDeletingName="ServiceListRowDeleting" msprop:Generator_RowChangingName="ServiceListRowChanging" msprop:Generator_RowEvHandlerName="ServiceListRowChangeEventHandler" msprop:Generator_RowDeletedName="ServiceListRowDeleted" msprop:Generator_UserTableName="ServiceList" msprop:Generator_RowChangedName="ServiceListRowChanged" msprop:Generator_RowEvArgName="ServiceListRowChangeEvent" msprop:Generator_RowClassName="ServiceListRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Service" msprop:Generator_ColumnVarNameInTable="columnService" msprop:Generator_ColumnPropNameInRow="Service" msprop:Generator_ColumnPropNameInTable="ServiceColumn" msprop:Generator_UserColumnName="Service" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CertificateConfig" msprop:Generator_TableClassName="CertificateConfigDataTable" msprop:Generator_TableVarName="tableCertificateConfig" msprop:Generator_TablePropName="CertificateConfig" msprop:Generator_RowDeletingName="CertificateConfigRowDeleting" msprop:Generator_RowChangingName="CertificateConfigRowChanging" msprop:Generator_RowEvHandlerName="CertificateConfigRowChangeEventHandler" msprop:Generator_RowDeletedName="CertificateConfigRowDeleted" msprop:Generator_UserTableName="CertificateConfig" msprop:Generator_RowChangedName="CertificateConfigRowChanged" msprop:Generator_RowEvArgName="CertificateConfigRowChangeEvent" msprop:Generator_RowClassName="CertificateConfigRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GCLocation" msprop:Generator_ColumnVarNameInTable="columnGCLocation" msprop:Generator_ColumnPropNameInRow="GCLocation" msprop:Generator_ColumnPropNameInTable="GCLocationColumn" msprop:Generator_UserColumnName="GCLocation" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpirationLocation" msprop:Generator_ColumnVarNameInTable="columnExpirationLocation" msprop:Generator_ColumnPropNameInRow="ExpirationLocation" msprop:Generator_ColumnPropNameInTable="ExpirationLocationColumn" msprop:Generator_UserColumnName="ExpirationLocation" type="xs:string" minOccurs="0" />
+              <xs:element name="FromLocation" msprop:Generator_ColumnVarNameInTable="columnFromLocation" msprop:Generator_ColumnPropNameInRow="FromLocation" msprop:Generator_ColumnPropNameInTable="FromLocationColumn" msprop:Generator_UserColumnName="FromLocation" type="xs:string" minOccurs="0" />
+              <xs:element name="ToLocation" msprop:Generator_ColumnVarNameInTable="columnToLocation" msprop:Generator_ColumnPropNameInRow="ToLocation" msprop:Generator_ColumnPropNameInTable="ToLocationColumn" msprop:Generator_UserColumnName="ToLocation" type="xs:string" minOccurs="0" />
+              <xs:element name="AmountLocation" msprop:Generator_ColumnVarNameInTable="columnAmountLocation" msprop:Generator_ColumnPropNameInRow="AmountLocation" msprop:Generator_ColumnPropNameInTable="AmountLocationColumn" msprop:Generator_UserColumnName="AmountLocation" type="xs:string" minOccurs="0" />
+              <xs:element name="MemoLocation" msprop:Generator_ColumnVarNameInTable="columnMemoLocation" msprop:Generator_ColumnPropNameInRow="MemoLocation" msprop:Generator_ColumnPropNameInTable="MemoLocationColumn" msprop:Generator_UserColumnName="MemoLocation" type="xs:string" minOccurs="0" />
+              <xs:element name="PrintQR" msprop:Generator_ColumnVarNameInTable="columnPrintQR" msprop:Generator_ColumnPropNameInRow="PrintQR" msprop:Generator_ColumnPropNameInTable="PrintQRColumn" msprop:Generator_UserColumnName="PrintQR" type="xs:boolean" minOccurs="0" />
+              <xs:element name="QRLocation" msprop:Generator_ColumnVarNameInTable="columnQRLocation" msprop:Generator_ColumnPropNameInRow="QRLocation" msprop:Generator_ColumnPropNameInTable="QRLocationColumn" msprop:Generator_UserColumnName="QRLocation" type="xs:string" minOccurs="0" />
+              <xs:element name="FontSize" msprop:Generator_ColumnVarNameInTable="columnFontSize" msprop:Generator_ColumnPropNameInRow="FontSize" msprop:Generator_ColumnPropNameInTable="FontSizeColumn" msprop:Generator_UserColumnName="FontSize" type="xs:double" minOccurs="0" />
+              <xs:element name="DocSize" msprop:Generator_ColumnVarNameInTable="columnDocSize" msprop:Generator_ColumnPropNameInRow="DocSize" msprop:Generator_ColumnPropNameInTable="DocSizeColumn" msprop:Generator_UserColumnName="DocSize" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:GiftCertificates" />
+      <xs:field xpath="mstns:GiftCertificateID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
